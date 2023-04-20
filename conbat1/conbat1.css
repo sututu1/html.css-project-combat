@@ -1,0 +1,89 @@
+body,
+ul,
+li,
+span {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header {
+    width: 648px;
+    background-color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 1px solid red;
+    
+}
+.icon{
+    float: left;
+    padding-left: 18px;
+    padding-right: 3px;
+    radius:  50%;
+    background-color: red;
+}
+
+.header-top{
+    width: 526px;
+    margin: 0 6px auto;
+    position: relative;
+}
+.header-top a{
+    color:#9F9F9F  ;
+    text-decoration: none;
+}
+.address a,
+.direction a{
+    color: red;
+    text-decoration: none;
+}
+.header-top{
+    float: left;
+}
+.list{
+    float: right;
+}
+.home-list li{
+    float: left;
+    position: relative;
+    top: -30px;
+padding-left: 20px;
+}
+/*.jian-tou span {
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+
+.location:hover {
+    display: block;
+}
+
+.top-header a:hover,
+.top-header a.highlight {
+    color: red;
+}
+
+.location {
+    float: left;
+    background-color: white;
+}
+
+
+.home-list {
+    float: right;
+}
+
+.home-list li {
+    float: left;
+    padding: 20px;
+}*/

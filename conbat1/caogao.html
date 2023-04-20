@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body,
+    ul,
+    li,
+    span {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        color: #999;
+        list-style: none;
+    }
+
+    .clearfix::before,
+    .clearfix::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    .top-bar-wrapper {
+        width: 80% ;
+        background-color: wheat;
+        height: 30px;
+        line-height: 30px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .top-bar {
+        width: 1190px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .top-bar a,
+    .top-bar span {
+        color: #999;
+        text-decoration: none;
+    }
+
+    .location:hover 
+     {
+            display: block;
+        }
+
+    .top-bar a:hover,
+    .top-bar a.highlight {
+        color: red;
+    }
+
+    .location {
+        float:left;
+    }
+
+    .location {
+        display: none;
+        width: 320px;
+        height: 436px;
+        background-color: gray;
+        border: 1px solid rgb(204, 204, 204);
+        position: absolute;
+        top: 31px;
+        box-shadow: 0 2PX 2px rgba(0, 0, 0, 2);
+        border-bottom: none;
+    }
+
+    .location:hover  {
+        display: block;
+    }
+
+   
+   
+    .shortcut {
+        float: right;
+        ;
+    }
+
+    .shortcut li {
+        float: left;
+    }
+
+  
+</style>
+
+<body>
+    <div class="top-bar-wrapper">
+
+            <div class="location">
+
+                <a href="javascript:;">ZEITPLAN</a>
+            </div>
+            <ul class="shortcut clearfix">
+                <li>
+                    <a href="javascript:;">Home</a>
+
+                </li>
+
+                <li> <a href="javascript:;">Fitur-Fitur</a></li>
+
+                <li><a href="javascript:;">Harga</a></li>
+
+                <li><a href="javascript:;">Tetimoni</a></li>
+
+                <li> <a class="highlight" href="javascript:;">Downioad</a></li>
+                <li><span class="">-></span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
