@@ -5,85 +5,103 @@ span {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 14px;
-}
-
-.clearfix::before,
-.clearfix::after {
-    content: '';
-    display: table;
-    clear: both;
+    font-size: 2px;
 }
 
 .header {
     width: 648px;
-    background-color: #FFFFFF;
-    height: 30px;
-    line-height: 30px;
-    margin-left: 50px;
-    margin-top: 20px;
-    border: 1px solid red;
-    
+    height: 465px;
+    background-color: #FFF7F5;
+    border: black;
+    margin: 0 416px;
+    padding-left: 60px;
+    padding-top: 20px;
+    box-sizing: border-box;
+
 }
-.icon{
-    float: left;
+
+
+.header-top {
+    width: 526px;
+    height: 46px;
+    background-color: #FFFFFF;
+    border: 1px solid white;
     padding-left: 18px;
-    padding-right: 3px;
-    radius:  50%;
+    line-height: 46px;
+    clear: both;
+
+}
+
+.icon {
+    float: left;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 48px;
+    border-radius: 16px;
     background-color: red;
 }
 
-.header-top{
-    width: 526px;
-    margin: 0 6px auto;
+span {
+    font-size: 12px;
+    line-height: 48px;
     position: relative;
-}
-.header-top a{
-    color:#9F9F9F  ;
-    text-decoration: none;
-}
-.address a,
-.direction a{
-    color: red;
-    text-decoration: none;
-}
-.header-top{
-    float: left;
-}
-.list{
-    float: right;
-}
-.home-list li{
-    float: left;
-    position: relative;
-    top: -30px;
-padding-left: 20px;
-}
-/*.jian-tou span {
-    background-color: #FFFFFF;
-    text-decoration: none;
-}
-
-.location:hover {
-    display: block;
-}
-
-.top-header a:hover,
-.top-header a.highlight {
-    color: red;
+    top: -18px;
+    left: 3px;
+    font-size: 18px;
+    color: #F6D9D3;
 }
 
 .location {
     float: left;
-    background-color: white;
+    padding-left: 8px;
 }
 
-
-.home-list {
+.list {
     float: right;
+    position: relative;
+    top: -37px;
+    left: -60px;
 }
 
 .home-list li {
     float: left;
-    padding: 20px;
-}*/
+    margin-left: 21px;
+   
+}
+
+.address a {
+    color: #FF2501;
+    text-decoration: none;
+}
+
+
+.direction {
+
+    width: 72px;
+    height: 24px;
+    background: #FF2500;
+    border-radius: 4px;
+    padding: 2PX;
+    line-height: 24px;
+}
+
+.direction a strong {
+    position: absolute;
+    width: 54px;
+    height: 11px;
+    text-align: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+  line-height: 24px;
+  margin-right: 2px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
