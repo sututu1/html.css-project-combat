@@ -1,6 +1,6 @@
 .top {
     height: 999px;
-    background: #FFF0EE;
+    background: linear-gradient(180deg, rgba(255, 244, 242, 0.4) 0%, #FFF0EE 100%);
     padding-top: 50px;
 }
 
@@ -101,10 +101,8 @@
 }
 
 .l1 {
-
     height: 999px;
     padding-top: 79px;
-
 }
 
 .l1 .nav2 {
@@ -123,6 +121,7 @@
     background-color: #FFF0EE;
     display: flex;
     flex-direction: column;
+
 }
 
 .left-1 .theme {
@@ -240,9 +239,6 @@
     background: #FFC93F;
 }
 
-
-
-
 .card .descript {
     font-family: 'Poppins';
     font-style: normal;
@@ -327,8 +323,8 @@
 .nav3 {
     width: 1168px;
     height: 708px;
-    background-color: red;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
@@ -338,12 +334,8 @@
 .nav3 .left-3 {
     width: 369px;
     height: 436px;
-    background-color: yellow;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-
-
 }
 
 .nav3 .left-3 .header-1 {
@@ -368,11 +360,10 @@
 .nav3 .left-3 .name {
     width: 325px;
     height: 52px;
-    background-color: fuchsia;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 88px;
+    margin-top: 80px;
 }
 
 .nav3 .left-3 .name .name1,
@@ -394,47 +385,98 @@
     color: #0C1B4D;
 }
 
-.nav3 .right-1 .rh {
+.nav3 .right-1 {
     width: 669px;
     height: 508px;
-    background-color: blue;
+    background: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     position: relative;
-   
-
+    left: 500px;
+    top: -472px;
 }
 
-.nav3 .right-1 .box1 {
-    width: 319.5px;
-    height: 239px;
-    background-color: green;    
-    position: relative;
-  
-}
-
-.nav3 .right-1 .box2 {
-    width: 319.5px;
-    height: 239px;
-    background-color: green;
-    position: relative;
-   
-}
-
-.nav3 .right-1 .box3 {
-    width: 319.5px;
-    height: 239px;
-    background-color: green;
-    position: relative;
- 
-}
-
+.nav3 .right-1 .box1, 
+.nav3 .right-1 .box2, 
+.nav3 .right-1 .box3, 
 .nav3 .right-1 .box4 {
     width: 319.5px;
     height: 239px;
-    background-color: green;
-    position: relative;
- 
+  background: linear-gradient(180deg, rgba(255, 244, 242, 0.4) 0%, #FFF0EE 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.right-1 .box1 img,
+.right-1 .box2 img,
+.right-1 .box3 img,
+.right-1 .box4 img {
+    padding: 40px;
+}
 
+.box1 .heard3,
+.box2 .heard4,
+.box3 .heard5,
+.box4 .heard6 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    position: relative;
+    top: -97px;
+    left: 110px;
+}
+
+.right-1 .box1 .text3 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+    position: relative;
+    top: -79px;
+    left: 40px;
+}
+
+.right-1 .box2 .text4 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+    position: relative;
+    top: -79px;
+    left: 40px;
+}
+
+.right-1 .box3 .text5 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+    position: relative;
+    top: -79px;
+    left: 40px;
+}
+
+.right-1 .box4 .text6 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+    position: relative;
+    top: -79px;
+    left: 40px;
+}
 
 
