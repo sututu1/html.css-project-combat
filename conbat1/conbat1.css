@@ -397,13 +397,13 @@
     top: -472px;
 }
 
-.nav3 .right-1 .box1, 
-.nav3 .right-1 .box2, 
-.nav3 .right-1 .box3, 
+.nav3 .right-1 .box1,
+.nav3 .right-1 .box2,
+.nav3 .right-1 .box3,
 .nav3 .right-1 .box4 {
     width: 319.5px;
     height: 239px;
-  background: linear-gradient(180deg, rgba(255, 244, 242, 0.4) 0%, #FFF0EE 100%);
+    background: linear-gradient(180deg, rgba(255, 244, 242, 0.4) 0%, #FFF0EE 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -479,4 +479,96 @@
     left: 40px;
 }
 
+.nav4 {
+    width: 1168px;
+    height: 879px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    gap: 31px;
+    margin: 0 auto;
+}
 
+.nav4 .right-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 569px;
+    height: 624px;
+}
+
+.right-4 .header4 {
+    font-family: 'Patua One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 52px;
+    color: #0E144A;
+}
+
+.right-4 .them {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 20px;
+    color: rgba(14, 20, 74, 0.6);
+}
+
+.right-4 .bf,
+.right-4 .bd {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+}
+
+.right-4 .box5,
+.right-4 .box6 {
+    width: 269.5px;
+    height: 141px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.right-4 .box7,
+.right-4 .box8 {
+    width: 269.5px;
+    height: 141px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.box5 .card5,
+.box6 .card6,
+.box7 .card7,
+.box8 .card8 {
+    font-family: 'Patua One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #0E144A;
+}
+
+.box5 .head7,
+.box6 .head8,
+.box7 .head9,
+.box8 .head10 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+    color: rgba(14, 20, 74, 0.6);
+}
