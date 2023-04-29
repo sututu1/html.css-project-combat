@@ -496,7 +496,6 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     width: 569px;
     height: 624px;
 }
@@ -505,7 +504,7 @@
     font-family: 'Patua One';
     font-style: normal;
     font-weight: 400;
-    font-size: 38px;
+    font-size: 34px;
     line-height: 52px;
     color: #0E144A;
 }
@@ -571,4 +570,8 @@
     font-size: 12px;
     line-height: 32px;
     color: rgba(14, 20, 74, 0.6);
+}
+
+.nav5{
+    
 }
