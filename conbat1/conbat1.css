@@ -1,7 +1,9 @@
 .top {
+    width: 1440px;
     height: 999px;
     background: linear-gradient(180deg, rgba(255, 244, 242, 0.4) 0%, #FFF0EE 100%);
     padding-top: 50px;
+    margin: 0 auto;
 }
 
 .top .header {
