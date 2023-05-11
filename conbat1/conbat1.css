@@ -304,6 +304,7 @@
     width: 1168px;
     height: 708px;
     display: flex;
+
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -466,9 +467,21 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px;
     gap: 31px;
     margin: 0 auto;
+}
+
+.nav4 .left-4 {
+    width: 568px;
+    height: 679px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left-4 img {
+    margin-top: 14px;
 }
 
 .nav4 .right-4 {
@@ -558,11 +571,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 13px;
-    margin-bottom: 15px;
     text-align: center;
-    position: relative;
-    left: -599px;
+    margin: 0 auto;
 }
 
 
@@ -761,16 +771,14 @@
     margin-bottom: 87px;
 }
 
+
 .nav-6 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 1441px;
-    height: 1154px;
     background: rgba(254, 94, 68, 0.1);
-    margin-top: -15px;
-    position: relative;
-    left: -599px
+    margin: 0 auto;
 }
 
 .nav-6 .head-6 {
@@ -798,21 +806,21 @@
 .nav-6 .box-5 {
     width: 1169px;
     height: 666px;
-
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .box-5 .box-6 {
+    width: 369.67px;
+    height: 562px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    width: 369.67px;
-    height: 562px;
+
 }
 
 .box-6 .hu {
@@ -986,6 +994,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    margin: 0 auto;
 }
 
 .nav-7 .head-17 {
@@ -1029,20 +1038,21 @@
     width: 1168px;
     height: 1px;
     background: rgba(14, 20, 74, 0.05);
-    border-top: 1px solid;
-    position: relative;
-    top: 83px;
+    margin: 0 auto;
 }
 
 .nav-10 {
     width: 1240px;
     padding: 100px 100px;
-    margin-top: 84px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    margin-top: 84px;
+    margin: 0 auto;
 }
+
+
 
 .box21 .head18 {
     font-family: 'Patua One';
@@ -1125,6 +1135,7 @@
     height: 158px;
     border: yellowgre;
     margin-left: 30px;
+
 }
 
 .box24 .head19 {
