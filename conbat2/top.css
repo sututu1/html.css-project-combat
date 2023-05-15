@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+/* 顶部样式开始 */
+.page-top {
+    background: #F7F7F7;
+    display: flex;
+    justify-content: center;
+}
+
+.page-top-inner {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-bottom: 14px;
+}
+
+.page-top .left {
+    display: flex;
+}
+
+.page-top .item {
+    display: flex;
+    align-items: center;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.page-top .item img {
+    width: 18px;
+    margin-right: 14px;
+}
+
+.page-top .item.phone-wrap {
+    margin-right: 63px;
+}
+
+.page-top .center {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #9E3040;
+}
+
+/* 顶部样式结束 */

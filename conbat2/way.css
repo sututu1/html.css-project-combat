@@ -1,0 +1,87 @@
+.method {
+    width: 933px;
+    height: 194px;
+    margin: 0 auto;
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.car,
+.way,
+.phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.car img {
+    width: 65px;
+    padding: 25px 17.5px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.way img {
+    width: 78px;
+    padding: 20px 11px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.phone img {
+    width: 78px;
+    padding: 20px 11px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.car .heart,
+.way .safety,
+.phone .date {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+    color: #232323;
+    margin: 22px;
+}
+
+.car .price,
+.way .proportion,
+.phone .support {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #303030;
+    margin-top: -23px;
+}
+
+.dotted {
+    position: absolute;
+    left: 0.5px;
+    top: 1040.5px;
+    width: 1497.83px;
+    height: 80.46px;
+    opacity: 0.3;
+}
+
+.head {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    width: 277px;
+    height: 58px;
+    margin: 0 auto;
+    margin-top: 95px;
+}

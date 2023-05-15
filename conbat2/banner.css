@@ -1,9 +1,13 @@
 .page-banner {
     position: relative;
-}
+    background: #43362f;
 
-.page-banner .baaner {
-    width: 100%;
+    height: 750px;
+    background-image: url(./imgs/banner.jpg);
+    background-size: 1440px 750px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-width: 1200px;
 }
 
 .page-banner .baaner-slogan {
@@ -20,7 +24,7 @@
 }
 
 .page-banner .title {
-    width: 460px;
+    width: 422px;
     font-family: 'Hind Siliguri';
     font-style: normal;
     font-weight: 600;
@@ -42,6 +46,8 @@
 }
 
 .page-banner .go-button {
+    width: 187px;
+    height: 49px;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
@@ -52,9 +58,13 @@
     font-size: 18px;
     line-height: 29px;
     color: #9E3040;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.page-banner .go-button {
+.page-banner .go-button img {
     width: 30px;
     margin-left: 10px;
 }
