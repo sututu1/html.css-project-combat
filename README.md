@@ -18,7 +18,7 @@ HTML 预览地址: https://sututu1.github.io/html.css-project-combat/conbat1/con
 
 设计稿预览图: 
 
-<img src="./conbat2/conbat2.jpg" >
+<img src="./conbat2/conbat2.jpg" hight="300px" >
 
 设计稿地址: https://www.figma.com/file/15U5Pq0pdmBaysrMUgykiG/E-commerce---Landing-Page-(Community)-(Community)?type=design&node-id=0-1&t=0X0jHAICDLK4WdsC-0
 
