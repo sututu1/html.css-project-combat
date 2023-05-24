@@ -53,7 +53,7 @@
 
 }
 
-.product-menu .show-button {
+.show-button {
     width: 162px;
     height: 49px;
     background: #9E3040;
@@ -63,7 +63,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: -41px;
 
     font-family: 'Hind Siliguri';
     font-style: normal;
@@ -217,19 +217,37 @@
     color: #FFFFFF;
 }
 
+.group .product .number .price,
+.group .product1 .number .price,
+.group .product2 .number .price,
+.group .product3 .number .price {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 39px;
+    color: #9E3040;
+}
+
+.group .product .number .old-price,
+.group .product1 .number .old-price,
+.group .product2 .number .old-price,
+.group .product3 .number .old-price {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #686868;
+}
+
 .group .product2 {
     width: 329px;
     height: 418px;
     background: #F3F5F6;
     border-radius: 10px;
 }
-
-.group .product2 .vap {
-    padding-top: 23px;
-    padding-left: 14px;
-    padding-right: 15px;
-    padding-bottom: 33px;
-}  
 
 .group .product .button,
 .group .product1 .button,

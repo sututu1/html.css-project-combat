@@ -1,0 +1,76 @@
+.row-down {
+    width: 1280px;
+    height: 749px;
+    background-color: bisque;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px;
+}
+
+.row-down .left {
+    width: 462px;
+    height: 331px;
+    background: #F3F5F6;
+    border-radius: 30px;
+    padding-top: 76px;
+    padding-left: 30px;
+    padding-right: 27px;
+    padding-bottom: 75px;
+}
+
+
+.row-down .left .head {
+    width: 462px;
+    height: 58px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 58px;
+    color: #9E3040;
+    margin-top: -15px;
+}
+
+.row-down .left .text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+
+    color: #232323;
+    margin-top: 12px;
+}
+
+.row-down .left .pack {
+    width: 187px;
+    height: 49px;
+    background: #232323;
+    box-shadow: 0px 0px 10px rgba(35, 35, 35, 0.17);
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.row-down .left .pack .arrow img{
+    width: 30px;
+}
+
+.row-down .left .pack .shop{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.row-down .right img{
+    width: 749px;
+    border-radius: 30px;
+}
