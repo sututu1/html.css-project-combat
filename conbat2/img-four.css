@@ -1,0 +1,97 @@
+.page-four {
+    width: 1277px;
+    height: 905px;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: -5px;
+
+}
+
+.page-four .head {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 58px;
+    color: #232323;
+    width: 277px;
+    height: 58px;
+}
+
+.page-four .pack {
+    width: 1277px;
+    height: 698px;
+    background-color: blanchedalmond;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-four .pack .item {
+    width: 410px;
+    height: 698px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.page-four .pack .head {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 39px;
+    color: #9E3040;
+    margin-top: 31px;
+    margin-left: 18px;
+
+}
+
+.page-four .pack .item .text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+
+    color: #303030;
+    margin-top: 13px;
+    margin-left: 18px;
+}
+
+.page-four .pack .item .agnin {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #303030;
+    margin-top: 26px;
+
+}
+
+.page-four .pack .img img {
+    width: 410px;
+}
+
+.page-four .button {
+    width: 162px;
+    height: 49px;
+    background: #9E3040;
+    box-shadow: 0px 0px 10px rgba(158, 48, 64, 0.17);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -41px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 60px;
+}

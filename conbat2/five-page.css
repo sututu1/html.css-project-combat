@@ -1,0 +1,68 @@
+.five-page {
+    width: 1280px;
+    height: 412px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.five-page .head {
+    width: 268px;
+    height: 58px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 58px;
+    color: #232323;
+    margin-top: -5px;
+}
+
+.five-page .box .text {
+    width: 919px;
+    height: 95px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-left: 180px;  
+}
+
+.five-page .box .row {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.five-page .box {
+    width: 1280px;
+    height: 314px;
+    background: #9E3040;
+    border-radius: 30px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.five-page .box .img img {
+    width: 117.38px;
+}
+
+.five-page .box .item {
+    position: absolute;
+    top: 30px;
+    left: 64px;
+
+}
+
+.five-page .box .arrow {
+    position: absolute;
+    right: 64.03px;
+    bottom: 30px;
+}
