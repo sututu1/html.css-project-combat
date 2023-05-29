@@ -20,7 +20,7 @@ HTML 预览地址: https://sututu1.github.io/html.css-project-combat/conbat1/con
 
 <img src="./conbat2/conbat2.jpg" height="600px" >
 
-设计稿地址: https://www.figma.com/file/15U5Pq0pdmBaysrMUgykiG/E-commerce---Landing-Page-(Community)-(Community)?type=design&node-id=0-1&t=0X0jHAICDLK4WdsC-0
+设计稿地址:https://www.figma.com/file/15U5Pq0pdmBaysrMUgykiG/E-commerce---Landing-Page-(Community)-(Community)?type=design&node-id=0-1&t=ZGJJS3UcI8Z5VR1q-0
 
 HTML 预览地址: https://sututu1.github.io/html.css-project-combat/conbat2/conbat2.html
 
