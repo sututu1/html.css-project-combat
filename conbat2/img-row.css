@@ -1,0 +1,39 @@
+
+.img-row .head {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 58px;
+
+    color: #232323;
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.img-row .img-list {
+    width: 1280px;
+    height: 510px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.img-row .img-list .pack img,
+.img-row .img-list .row img {
+    width: 355px;
+    border-radius: 10px;
+}
+
+.img-row .img-list .img-3 img {
+    width: 510px;
+    border-radius: 10px;
+}
+
+.img-row .img-list .pack,
+.img-row .img-list .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

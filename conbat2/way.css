@@ -5,18 +5,20 @@
     margin-top: 95px;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
+    position: relative;
 }
 
-.car,
-.way,
-.phone {
+.method .car,
+.method .way,
+.method .phone {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 
-.car img {
+.method .car img {
     width: 65px;
     padding: 25px 17.5px;
     background: #FFFFFF;
@@ -24,7 +26,7 @@
     border-radius: 5px;
 }
 
-.way img {
+.method .way img {
     width: 78px;
     padding: 20px 11px;
 
@@ -33,7 +35,7 @@
     border-radius: 5px;
 }
 
-.phone img {
+.method .phone img {
     width: 78px;
     padding: 20px 11px;
 
@@ -42,9 +44,9 @@
     border-radius: 5px;
 }
 
-.car .heart,
-.way .safety,
-.phone .date {
+.method .car .heart,
+.method .way .safety,
+.method .phone .date {
     font-family: 'Hind Siliguri';
     font-style: normal;
     font-weight: 600;
@@ -54,9 +56,9 @@
     margin: 22px;
 }
 
-.car .price,
-.way .proportion,
-.phone .support {
+.method .car .price,
+.method .way .proportion,
+.method .phone .support {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -72,15 +74,4 @@
     top: 1040.5px;
     height: 80.46px;
     opacity: 0.3;
-}
-
-.head {
-    font-family: 'Hind Siliguri';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    width: 277px;
-    height: 58px;
-    margin: 0 auto;
-    margin-top: 95px;
 }

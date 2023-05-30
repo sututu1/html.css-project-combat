@@ -12,6 +12,8 @@
     font-size: 36px;
     line-height: 58px;
     color: #232323;
+    text-align: center;
+    margin-top: 95px;
 }
 
 .img-meau {
@@ -75,7 +77,6 @@
 
 .img-meau .group {
     width: 695px;
-    height: 886px;
     display: flex;
     flex-wrap: wrap;
 
@@ -95,11 +96,14 @@
 .img-meau .group .product1 .nap,
 .img-meau .group .product2 .vap,
 .img-meau .group .product3 .gap {
-
     padding-top: 23px;
     padding-left: 14px;
     padding-right: 15px;
     padding-bottom: 33px;
+}
+
+.img-meau .group .product1 img{
+    background-color: white;
 }
 
 .img-meau .group .product {

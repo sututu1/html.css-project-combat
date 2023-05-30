@@ -1,7 +1,6 @@
 .page-four {
     width: 1277px;
     height: 905px;
-    background-color: red;
     margin: 0 auto;
     margin-top: -5px;
 
@@ -14,14 +13,13 @@
     font-size: 36px;
     line-height: 58px;
     color: #232323;
-    width: 277px;
+    text-align: center;
     height: 58px;
+    margin: 0 auto;
 }
 
 .page-four .pack {
-    width: 1277px;
     height: 698px;
-    background-color: blanchedalmond;
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
@@ -73,6 +71,7 @@
 
 .page-four .pack .img img {
     width: 410px;
+    border-radius: 10px;
 }
 
 .page-four .button {

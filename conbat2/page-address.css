@@ -1,0 +1,175 @@
+.page-address {
+    width: 1440px;
+    height: 385px;
+    background: #F3F5F6;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page-address .address-name .head {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+    color: #232323;
+
+}
+
+.page-address .address-name .name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #303030;
+    margin-left: 24px;
+}
+
+
+.page-address .address-name .name:nth-child(2) {
+    margin-top: 20px;
+
+}
+
+.page-address .address-name .name:nth-child(3),
+.page-address .address-name .name:nth-child(4),
+.page-address .address-name .name:nth-child(5) {
+    margin-top: 25px;
+}
+
+.page-address .address-row {
+    width: 294px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.page-address .address-row .head {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+    color: #232323;
+}
+
+.page-address .address-row .item .text {
+    position: absolute;
+    left: 46px;
+    top: 69px;
+}
+
+.page-address .address-row .item img {
+    width: 21.97px;
+    margin-left: 9.5px;
+    margin-top: -12px;
+    background: #9E3040;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.page-address .address-row .row img {
+    width: 21.97px;
+    margin-left: 7px;
+    margin-right: 17.03px;
+    margin-top: 29px;
+    background: #9E3040;
+}
+
+.page-address .address-row .hot img {
+    width: 23.65px;
+    margin-left: 6px;
+    margin-right: 16.35px;
+    background: #9E3040;
+}
+
+.page-address .address-row .name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #303030;
+}
+
+.page-address .address-img {
+    width: 360.18px;
+    height: 257px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-address .address-img .head {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+    color: #232323;
+}
+
+.page-address .address-img .imgs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.page-address .address-img .imgs .img-1 img {
+    width: 57.04px;
+
+}
+
+.page-address .address-img .imgs .img-2 img {
+    width: 65.5px;
+}
+
+.page-address .address-img .imgs .img-3 img {
+    width: 65.42px;
+}
+
+.page-address .address-img .imgs .img-4 img {
+    width: 68.62px;
+}
+
+.page-address .address-img .imgs .img-5 img {
+    width: 52.93px;
+
+}
+
+.page-address .address-img .imgs .img-6 img {
+    width: 62.97px;
+
+}
+
+.page-address .address-img .imgs .img-7 img {
+    width: 65.41px;
+
+}
+
+.address-img .line {
+    width: 359px;
+    opacity: 0.3;
+    border: 1px solid #000000;
+
+}
+
+.address-img .text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #303030;
+
+}

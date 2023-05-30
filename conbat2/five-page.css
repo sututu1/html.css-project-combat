@@ -6,7 +6,6 @@
 }
 
 .five-page .head {
-    width: 268px;
     height: 58px;
     font-family: 'Hind Siliguri';
     font-style: normal;
@@ -14,24 +13,28 @@
     font-size: 36px;
     line-height: 58px;
     color: #232323;
+    text-align: center;
     margin-top: -5px;
+    margin: 0 auto;
 }
 
-.five-page .box .text {
+.five-page .box .pack .text {
     width: 919px;
     height: 95px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 23px;
+    line-height: 25px;
     text-align: center;
 
     color: #FFFFFF;
-    margin-left: 180px;  
+    position: absolute;
+    top: 100px;
+    left: 180px;
 }
 
-.five-page .box .row {
+.five-page .box .pack .row {
     font-family: 'Hind Siliguri';
     font-style: normal;
     font-weight: 600;
@@ -39,6 +42,16 @@
     line-height: 39px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.five-page .box .pack {
+    position: relative;
+}
+
+.five-page .box .pack .row{
+    position: absolute;
+    top: 216px;
+    left: 592px;
 }
 
 .five-page .box {

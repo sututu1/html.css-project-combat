@@ -1,11 +1,11 @@
 .row-down {
     width: 1280px;
-    height: 749px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 90px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .row-down .left {
