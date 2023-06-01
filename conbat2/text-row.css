@@ -1,5 +1,4 @@
 .text-head {
-
     font-family: 'Hind Siliguri';
     font-style: normal;
     font-weight: 600;
@@ -36,35 +35,42 @@
     margin-top: 21px;
 }
 
-.box-button .box-name {
+.box-button input[type="text"] {
+    width: 423px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid rgba(158, 48, 64, 0.3);
+    border-radius: 5px;
+    padding-left: 23px;
+}
+
+.box-button input::placeholder {
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 23px;
-    text-align: center;
 
     color: #656565;
-    margin-left: 23px;
 }
 
 .box-button .button {
     width: 162px;
     height: 49px;
-
     background: #9E3040;
     box-shadow: 0px 0px 10px rgba(158, 48, 64, 0.17);
     border-radius: 5px;
-
-    color: #FFFFFF; 
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
-.box-button .button .rrow{
+.box-button .button .rrow {
     font-family: 'Hind Siliguri';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 29px;
+    color: #FFFFFF;
 }

@@ -93,4 +93,9 @@
     line-height: 29px;
     color: #FFFFFF;
     margin-top: 60px;
+    cursor: pointer;
+}
+
+.page-four .button:hover{
+    color: gray;
 }

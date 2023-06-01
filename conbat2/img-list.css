@@ -73,6 +73,11 @@
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+.show-button:hover{
+    color: gray;
 }
 
 .img-meau .group {
